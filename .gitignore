@@ -1,0 +1,72 @@
+# Máquinas virtuais e imagens de instalação
+*.ova
+*.ovf
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.qcow2
+*.vbox
+*.vbox-prev
+*.iso
+
+# Capturas e evidências locais
+captures/
+screenshots/
+**/captures/
+**/screenshots/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.gif
+*.tif
+*.tiff
+*.mp4
+**/captura-*.png
+**/screenshot-*.png
+
+# Logs e resultados brutos de ferramentas
+*.log
+*.pcap
+*.pcapng
+*.out
+nmap-*.xml
+nmap-*.gnmap
+*.nmap
+results/
+outputs/
+reports/raw/
+
+# Wordlists locais e arquivos de credenciais
+wordlists/*
+!wordlists/README.md
+users.txt
+usernames.txt
+userlist.txt
+passwords.txt
+pass.txt
+passlist.txt
+*.wordlist
+*.dic
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
+# Configurações locais e chaves
+.env
+.env.*
+!.env.example
+*.local
+config.local.*
+credentials*
+secrets/
+*.pem
+*.key
+id_rsa
+id_ed25519
